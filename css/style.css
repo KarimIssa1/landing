@@ -1,0 +1,107 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v6.1.2/css/all.css');
+@import url('components/hero.css');
+@import url('components/how-it-works.css');
+@import url('components/footer.css');
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #121212;
+  color: #ffffff;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Poppins', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.section-title {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.section-content {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #4e8cff;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  text-align: center;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #4e6bff;
+}
+
+.header {
+  background-color: #333333;
+  padding: 20px;
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 36px;
+  color: #ffffff;
+}
+
+.footer {
+  background-color: #333333;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer p {
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.card {
+  background-color: #252525;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1);
+}
+
+.card h2 {
+  font-size: 24px;
+  color: #ffffff;
+}
+
+.card p {
+  font-size: 16px;
+  color: #cccccc;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1);
+}
